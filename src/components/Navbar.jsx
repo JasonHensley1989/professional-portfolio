@@ -67,7 +67,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className='py-4 text-3xl hover:scale-110 duration-500 text-[#0d0d0d]'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
@@ -79,7 +79,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className='py-4 text-3xl hover:scale-110 duration-500 text-[#0d0d0d]'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             My Work
@@ -99,7 +99,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/jason-hensley1989/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -107,7 +107,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/JasonHensley1989/'
             >
               Github <FaGithub size={30} />
             </a>
@@ -123,7 +123,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://docs.google.com/document/d/1CXi9UQuzz4pr7v0ADOfGseEEJywdKIJaiGKd54OPm7c/edit?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
