@@ -4,8 +4,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -61,7 +59,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-[400px] bg-[#557373] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-[400px] bg-[#557373] flex flex-col justify-center items-center border-b-2'
         }
       >
         <li className='py-4 text-3xl hover:scale-110 duration-500'>
@@ -69,7 +67,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className='py-4 text-3xl hover:scale-110 duration-500'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500 text-[#0d0d0d]'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
@@ -81,7 +79,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className='py-4 text-3xl hover:scale-110 duration-500'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500 text-[#0d0d0d]'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             My Work
