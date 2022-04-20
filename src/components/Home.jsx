@@ -17,7 +17,7 @@ const Home = () => {
           I’m a full-stack developer specializing in building exceptional digital experiences. My current focus is building fast, beautiful full-stack apps.
         </p>
         <div>
-          <button className='text-[#557373] group border-[##557373] px-6 py-3 my-2 flex items-center hover:bg-[#f2efea] hover:border-[#557373]'>
+          <button className='text-[#557373] group border-[#557373] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#f2efea] hover:border-[#557373] hover:scale-110 duration-500'>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
