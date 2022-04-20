@@ -41,7 +41,7 @@ const Navbar = () => {
         </li>
         <li className='hover:scale-110 duration-500'>
           <Link to='work' smooth={true} duration={500}>
-            Work
+            My Work
           </Link>
         </li>
         <li className='hover:scale-110 duration-500'>
@@ -61,33 +61,33 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#557373] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-[400px] bg-[#557373] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+            My Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-3xl hover:scale-110 duration-500'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact

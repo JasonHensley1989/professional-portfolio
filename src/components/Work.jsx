@@ -4,13 +4,13 @@ import realEstate from '../assets/realestate.jpg';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#557373]'>
+    <div name='work' className='w-full md:h-screen text-[#f2efea] bg-[#557373]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-2 text-gray-300 border-[#f2efea]'>
-            Work
+          <p className='text-4xl font-bold inline border-b-2 text-[#f2efea] border-[#f2efea]'>
+           My Work
           </p>
-          <p className='py-6'>// Check out some of my recent work</p>
+          <p className='py-6'>These are some of my recent projects with a deployed version, and the source code</p>
         </div>
 
 {/* Container */}
@@ -28,12 +28,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -51,12 +51,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -75,12 +75,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -98,12 +98,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -122,12 +122,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -145,12 +145,12 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#f2efea] text-[#557373] font-bold text-lg'>
                     Code
                   </button>
                 </a>
