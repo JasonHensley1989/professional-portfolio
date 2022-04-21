@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/professional-portfolio/static/css/main.14843f9b.css",
-    "main.js": "/professional-portfolio/static/js/main.6ce6dd6a.js",
+    "main.css": "/professional-portfolio/static/css/main.54c10675.css",
+    "main.js": "/professional-portfolio/static/js/main.233692e1.js",
     "static/media/realestate.jpg": "/professional-portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/shipdestroyer.png": "/professional-portfolio/static/media/shipdestroyer.c57973afcde6181da153.png",
     "static/media/weather-app.png": "/professional-portfolio/static/media/weather-app.a80747828463d43c95de.png",
@@ -10,11 +10,11 @@
     "static/media/logo-removebg-preview.png": "/professional-portfolio/static/media/logo-removebg-preview.b56a7fb05ae595c1e902.png",
     "static/media/imposterskingdom.png": "/professional-portfolio/static/media/imposterskingdom.3ea1cd5132518d674a8f.png",
     "index.html": "/professional-portfolio/index.html",
-    "main.14843f9b.css.map": "/professional-portfolio/static/css/main.14843f9b.css.map",
-    "main.6ce6dd6a.js.map": "/professional-portfolio/static/js/main.6ce6dd6a.js.map"
+    "main.54c10675.css.map": "/professional-portfolio/static/css/main.54c10675.css.map",
+    "main.233692e1.js.map": "/professional-portfolio/static/js/main.233692e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.14843f9b.css",
-    "static/js/main.6ce6dd6a.js"
+    "static/css/main.54c10675.css",
+    "static/js/main.233692e1.js"
   ]
 }
