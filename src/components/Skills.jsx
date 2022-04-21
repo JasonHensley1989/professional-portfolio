@@ -5,15 +5,18 @@ import {
     FaCss3Alt,
     FaReact,
     FaGithubSquare,
-    FaNodeJs
+    FaNodeJs,
+    FaPython
 } from 'react-icons/fa';
 
 import {
-    SiMongodb
+    SiMongodb,
+    SiDjango,
+
 } from 'react-icons/si';
 
 import {
-    DiPostgresql
+    DiPostgresql, DiPython
 } from 'react-icons/di';
 
 
@@ -59,6 +62,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg'>
                   <DiPostgresql className='scale-[5] mx-auto w-20 mt-10' />
                   <p className='my-10'>POSTGRESQL</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg'>
+                  <DiPython className='scale-[5] mx-auto w-20 mt-10' />
+                  <p className='my-10'>Python</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg'>
+                  <SiDjango className='scale-[5] mx-auto w-20 mt-10' />
+                  <p className='my-10'>Django</p>
               </div>
           </div>
       </div>
