@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-
+import { Button } from 'react-scroll';
+import Link from 'react-scroll/modules/components/Link';
 const Home = () => {
+
+  const [scroll, setScroll] = useState(false);
+  const handleClick = () => setScroll(!scroll);
+
+
   return (
     <div name='home' className='w-full h-screen - bg-[#dfe5f3]'>
       {/* Container */}
@@ -17,12 +23,11 @@ const Home = () => {
           I’m a full-stack developer specializing in building exceptional digital experiences. My current focus is building fast, beautiful full-stack applications.
         </p>
         <div>
-          <button className='text-[#557373] group border-[#557373] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#557373] hover:text-[#dfe5f3] hover:border-[#557373] hover:scale-110 duration-500'>
-            View Work
-            <span className='group-hover:rotate-90 duration-300'>
+          <Link onClick={handleClick} to='about' smooth={true} duration={500} className='text-[#557373] w-[15%] group border-[#557373] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#557373] hover:text-[#dfe5f3] hover:border-[#557373] hover:scale-110 duration-500'>
+            <span className='group-hover:rotate-90 duration-300'>View Work
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
