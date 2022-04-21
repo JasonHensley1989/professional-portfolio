@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/professional-portfolio/static/css/main.3ae8ce0e.css",
-    "main.js": "/professional-portfolio/static/js/main.25986ed5.js",
+    "main.css": "/professional-portfolio/static/css/main.8503ba5c.css",
+    "main.js": "/professional-portfolio/static/js/main.fc724fb3.js",
     "static/media/realestate.jpg": "/professional-portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/shipdestroyer.png": "/professional-portfolio/static/media/shipdestroyer.c57973afcde6181da153.png",
     "static/media/weather-app.png": "/professional-portfolio/static/media/weather-app.a80747828463d43c95de.png",
@@ -9,19 +9,12 @@
     "static/media/workImg.jpeg": "/professional-portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/logo-removebg-preview.png": "/professional-portfolio/static/media/logo-removebg-preview.b56a7fb05ae595c1e902.png",
     "static/media/imposterskingdom.png": "/professional-portfolio/static/media/imposterskingdom.3ea1cd5132518d674a8f.png",
-    "static/media/react.png": "/professional-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/aws.png": "/professional-portfolio/static/media/aws.95bdee6b9922c9b94fd5.png",
-    "static/media/node.png": "/professional-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/mongo.png": "/professional-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/github.png": "/professional-portfolio/static/media/github.3b9e32903aa89111875d.png",
-    "static/media/html.png": "/professional-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/css.png": "/professional-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "index.html": "/professional-portfolio/index.html",
-    "main.3ae8ce0e.css.map": "/professional-portfolio/static/css/main.3ae8ce0e.css.map",
-    "main.25986ed5.js.map": "/professional-portfolio/static/js/main.25986ed5.js.map"
+    "main.8503ba5c.css.map": "/professional-portfolio/static/css/main.8503ba5c.css.map",
+    "main.fc724fb3.js.map": "/professional-portfolio/static/js/main.fc724fb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ae8ce0e.css",
-    "static/js/main.25986ed5.js"
+    "static/css/main.8503ba5c.css",
+    "static/js/main.fc724fb3.js"
   ]
 }
