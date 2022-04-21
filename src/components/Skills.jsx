@@ -64,7 +64,7 @@ const Skills = () => {
                   <p className='my-10'>POSTGRESQL</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg'>
-                  <DiPython className='scale-[5] mx-auto w-20 mt-10' />
+                  <FaPython className='scale-[5] mx-auto w-20 mt-10' />
                   <p className='my-10'>Python</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg'>
