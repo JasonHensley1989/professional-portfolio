@@ -30,9 +30,9 @@ import {
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full md:h-[screen + 50px] h-[130vh] bg-[#f2efea] text-[#557373] mt-20 pt-20 pb-20'>
+    <div name='skills' className='w-full md:h-[screen + 50px] h-scre bg-[#f2efea] text-[#557373] pt-[1rem] py-[10%]'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-20 mt-10'>
           <div>
               <p className='text-4xl font-bold inline border-b-2 border-[#557373]'>Skills</p>
               <p className='py-4 text-[#0d0d0d]'> These are the technologies I've worked with</p>

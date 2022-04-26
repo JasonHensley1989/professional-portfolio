@@ -8,7 +8,7 @@ import shipImg from '../assets/shipdestroyer2.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-[#f2efea] bg-[#557373]'>
+    <div name='work' className='w-full md:h-screen text-[#f2efea] bg-[#557373] h-full'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full mt-20'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-2 text-[#f2efea] border-[#f2efea]'>
