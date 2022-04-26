@@ -30,7 +30,7 @@ import {
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full max-w-[1000px] md:h-[150vh] h-[130vh] bg-[#f2efea] text-[#557373] mt-20 pt-20 pb-20'>
+    <div name='skills' className='w-full md:h-[screen + 50px] h-[130vh] bg-[#f2efea] text-[#557373] mt-20 pt-20 pb-20'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
