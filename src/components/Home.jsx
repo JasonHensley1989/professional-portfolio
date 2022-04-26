@@ -23,8 +23,9 @@ const Home = () => {
           I’m a full-stack developer specializing in building exceptional digital experiences. My current focus is building fast, beautiful full-stack applications.
         </p>
         <div>
-          <Link onClick={handleClick} to='about' smooth={true} duration={500} className='text-[#557373] w-[15%] group border-[#557373] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#557373] hover:text-[#dfe5f3] hover:border-[#557373] hover:scale-110 duration-500'>
-            <span className='group-hover:rotate-90 duration-300'>View Work
+          <Link onClick={handleClick} to='about' smooth={true} duration={500} className='text-[#557373] w-[100px] group border-[#557373] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#557373] hover:text-[#dfe5f3] hover:border-[#557373] hover:scale-110 duration-500'>
+            <span className='group-hover:rotate-90 duration-300'>Explore
+              {/* <button className='w-[250px] group-hover:rotate-90 duration-300'>Explore</button> */}
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
           </Link>

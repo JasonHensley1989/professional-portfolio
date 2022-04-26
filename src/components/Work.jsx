@@ -1,10 +1,10 @@
 import React from 'react';
 import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
-import weatherImg from '../assets/weather-app.png';
-import garageSale from '../assets/garagesale.png';
-import impsImg from '../assets/imposterskingdom.png';
-import shipImg from '../assets/shipdestroyer.png';
+import weatherImg from '../assets/weather-app2.png';
+import garageSale from '../assets/garagesale2.png';
+import impsImg from '../assets/imposterskingdom2.png';
+import shipImg from '../assets/shipdestroyer2.png';
 
 const Work = () => {
   return (
@@ -29,6 +29,7 @@ const Work = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React Weather Application
+                <p className='text-sm text-center'>This application was built with React and Axios, using a 3rd party API to track weather, astronomy, weather history and soccer teams of the UK.</p>
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://jasonhensley1989.github.io/weather-app/'>
@@ -41,6 +42,7 @@ const Work = () => {
                     Code
                   </button>
                 </a>
+                
               </div>
             </div>
           </div>
@@ -52,6 +54,7 @@ const Work = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Imps Kingdom
+                <p className='text-sm text-center'>This is a game similar to pokemon that was built with Python and Pygame. It is essentially a bunch of layers of images that are executed in a different order. </p>
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -76,6 +79,7 @@ const Work = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 ECommerce Platform
+                <p className='text-sm text-center'>This application was built with React, Express, Mongoose, and MongoDB. This project took place over a period of approximately a two week period, in which myself and two others pair programmed to build an ecommerce buy and sell platform.</p>
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://channel4newsteam-jae.github.io/eCommerce-frontend/'>
@@ -104,6 +108,7 @@ const Work = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Ship Destroyer
+                <p className='text-sm text-center'>This application was built using Python as a personal challenge. The code will be used for lesson for someone with little or no experience in this particular technology, so they can adapt relatively quickly..</p>
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -127,7 +132,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                This is a placeholder, soon to be filled.
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -150,7 +155,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+               <p>This is a placeholder, soon to be filled.</p>
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>

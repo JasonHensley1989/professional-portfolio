@@ -12,6 +12,7 @@ import {
 import {
     SiMongodb,
     SiDjango,
+    SiExpress
 
 } from 'react-icons/si';
 
@@ -19,6 +20,13 @@ import {
     DiPostgresql, DiPython
 } from 'react-icons/di';
 
+import {
+    AiOutlineConsoleSql,
+} from 'react-icons/ai';
+
+import {
+    VscTerminalBash,
+} from 'react-icons/vsc';
 
 const Skills = () => {
   return (
@@ -70,6 +78,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg'>
                   <SiDjango className='scale-[5] mx-auto w-20 mt-10' />
                   <p className='my-10'>Django</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg'>
+                  <SiExpress className='scale-[5] mx-auto w-20 mt-10' />
+                  <p className='my-10'>Express</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 rounded-lg'>
+                  <AiOutlineConsoleSql className='scale-[5] mx-auto w-20 mt-10' />
+                  <p className='my-10'>SQL Database </p>
               </div>
           </div>
       </div>

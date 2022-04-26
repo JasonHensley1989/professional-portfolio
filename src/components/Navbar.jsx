@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#557373] text-gray-300'>
+    <div className='fixed w-screen h-[80px] flex justify-between items-center px-4 bg-[#557373] text-gray-300'>
       <div>
         <img src={Logo} alt='myLogo' style={{ width: '150px' }} />
       </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} className='md:hidden z-10 pr-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -94,7 +94,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
+      {/* Social Media icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
