@@ -8,7 +8,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div className="w-screen md:w-screen[110%]">
+    <div className="w-screen md:w-screen">
       <Navbar />
       <Home />
       <About />

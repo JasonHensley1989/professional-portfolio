@@ -9,9 +9,9 @@ const Home = () => {
 
 
   return (
-    <div name='home' className='w-full h-screen - bg-[#dfe5f3]'>
+    <div name='home' className='w-full h-screen bg-[#dfe5f3]'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+      <div className='max-w-[1000px] px-8 flex flex-col justify-center h-full'>
         <p className='text-[#0d0d0d]'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#0d0d0d]'>
           Jason A. Hensley
