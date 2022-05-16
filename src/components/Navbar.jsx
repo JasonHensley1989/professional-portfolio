@@ -16,13 +16,13 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-screen h-[80px] flex justify-between items-center px-4 bg-[#557373] text-gray-300'>
+    <div className='fixed w-screen h-[80px] flex justify-between items-center px-4 bg-[#557373] text-gray-300 text-lg'>
       <div>
         <img src={Logo} alt='myLogo' style={{ width: '150px' }} />
       </div>
 
       {/* menu */}
-      <ul className='hidden md:flex '>
+      <ul className='hidden md:flex'>
         <li className='hover:scale-110 duration-500'>
           <Link to='home' smooth={true} duration={500}>
             Home
@@ -60,7 +60,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-[400px] bg-[#557373] flex flex-col justify-center items-center border-b-2'
+            : 'absolute top-0 left-0 w-full h-[auto] bg-[#557373] flex flex-col justify-center items-center border-b-2'
         }
       >
         <li className='py-4 text-3xl hover:scale-110 duration-500'>
@@ -92,7 +92,49 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-      </ul>
+
+                
+                {/* <li to='home' smooth={true} duration={500}>
+                    <a className=' text-gray-300'
+                        href='https://www.linkedin.com/in/jason-hensley1989/'>
+                        Linkedin
+                    </a>
+                </li>
+                
+                <li className='hover:scale-110 duration-500'>
+                <li to='about' smooth={true} duration={500}>
+                    <a className='text-gray-300'
+                       href='https://github.com/JasonHensley1989/'>Github  
+                    </a>
+                </li>
+                </li>
+                <li className='hover:scale-110 duration-500'>
+                <li to='skills' smooth={true} duration={500}>
+                    <a className='text-gray-300'
+                        href='/'>
+                        Email 
+                    </a>
+                </li>
+                </li>
+                <li className='hover:scale-110 duration-500'>
+                <li to='work' smooth={true} duration={500}>
+                    <a className='text-gray-300'
+                        href='https://www.linkedin.com/in/jason-hensley1989/'>
+                        Resume
+                    </a>
+                </li>
+                </li>
+                <li className='hover:scale-110 duration-500'>
+                <li to='contact' smooth={true} duration={500}>
+                    <a className='text-gray-300'
+                        href='https://codepen.io/JasonHensley1989/'>
+                        CodePen 
+                    </a>
+                </li>
+                </li> */}
+
+            </ul>
+  
 
       {/* Social Media icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>

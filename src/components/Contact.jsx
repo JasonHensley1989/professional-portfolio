@@ -15,7 +15,6 @@ const Contact = () => {
               <button className='text-[#557373] border-2 border-[#557373] hover:bg-[#557373] hover:text-[#f2efea] hover:border-[#dfe5f3] hover:scale-110 duration-500 px-4 py-3 my-8 mx-auto flex items-center'>Submit</button>
           </form> 
       </div>
-      <div className='w-full h-screen/2 bg-[#557373] flex justify-center items-center p-4 text-[#f2efea]'>©2022 Jason Hensley</div>
     </div>
     
   )
