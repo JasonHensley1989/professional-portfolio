@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/professional-portfolio/static/css/main.40c963f3.css",
-    "main.js": "/professional-portfolio/static/js/main.3cc20fb9.js",
+    "main.js": "/professional-portfolio/static/js/main.59186a1f.js",
     "static/media/realestate.jpg": "/professional-portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/shipdestroyer2.png": "/professional-portfolio/static/media/shipdestroyer2.4226a48cb3c0dfb5560d.png",
     "static/media/weather-app2.png": "/professional-portfolio/static/media/weather-app2.b3b11ae2b1594042b412.png",
     "static/media/garagesale2.png": "/professional-portfolio/static/media/garagesale2.b8b093a1c852296149ef.png",
+    "static/media/JHResume.pdf": "/professional-portfolio/static/media/JHResume.f503c67332e02412fb61.pdf",
     "static/media/workImg.jpeg": "/professional-portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/logo-removebg-preview.png": "/professional-portfolio/static/media/logo-removebg-preview.b56a7fb05ae595c1e902.png",
     "static/media/imposterskingdom2.png": "/professional-portfolio/static/media/imposterskingdom2.2f1cfd73de571f4c94f2.png",
     "index.html": "/professional-portfolio/index.html",
     "main.40c963f3.css.map": "/professional-portfolio/static/css/main.40c963f3.css.map",
-    "main.3cc20fb9.js.map": "/professional-portfolio/static/js/main.3cc20fb9.js.map"
+    "main.59186a1f.js.map": "/professional-portfolio/static/js/main.59186a1f.js.map"
   },
   "entrypoints": [
     "static/css/main.40c963f3.css",
-    "static/js/main.3cc20fb9.js"
+    "static/js/main.59186a1f.js"
   ]
 }
