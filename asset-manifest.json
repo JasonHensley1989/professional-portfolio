@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/professional-portfolio/static/css/main.40c963f3.css",
-    "main.js": "/professional-portfolio/static/js/main.42b36c15.js",
+    "main.js": "/professional-portfolio/static/js/main.18b6b4f7.js",
     "static/media/realestate.jpg": "/professional-portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/shipdestroyer2.png": "/professional-portfolio/static/media/shipdestroyer2.4226a48cb3c0dfb5560d.png",
     "static/media/weather-app2.png": "/professional-portfolio/static/media/weather-app2.b3b11ae2b1594042b412.png",
@@ -13,10 +13,10 @@
     "static/media/react-calc.png": "/professional-portfolio/static/media/react-calc.ce89ccb435a71b0f977d.png",
     "index.html": "/professional-portfolio/index.html",
     "main.40c963f3.css.map": "/professional-portfolio/static/css/main.40c963f3.css.map",
-    "main.42b36c15.js.map": "/professional-portfolio/static/js/main.42b36c15.js.map"
+    "main.18b6b4f7.js.map": "/professional-portfolio/static/js/main.18b6b4f7.js.map"
   },
   "entrypoints": [
     "static/css/main.40c963f3.css",
-    "static/js/main.42b36c15.js"
+    "static/js/main.18b6b4f7.js"
   ]
 }
