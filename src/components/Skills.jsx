@@ -26,7 +26,7 @@ import {
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full md:h-[screen + 50px] bg-[#f2efea] text-[#557373] pt-[1rem] py-[10%]'>
+    <div name='skills' className='w-full md:h-[screen + 50px] bg-[#dfe5f3] text-[#557373] pt-[1rem] py-[10%]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-20 mt-10'>
           <div>

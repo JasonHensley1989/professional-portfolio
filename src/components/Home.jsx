@@ -20,7 +20,7 @@ const Home = () => {
           I'm a Front End Developer.
         </h2>
         <p className='text-[#0d0d0d] py-4 max-w-[700px] text-center'>
-          I’m a full-stack developer specializing in building exceptional digital experiences. My current focus is building fast, beautiful full-stack applications.
+          I specialize in building exceptional beautiful digital experiences. My current focus is building fast, beautiful full-stack applications. I love to always be learning.
         </p>
         <div>
           <Link onClick={handleClick} to='about' smooth={true} duration={500} className='text-[#557373] w-[100px] group border-[#557373] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#557373] hover:text-[#dfe5f3] hover:border-[#557373] hover:scale-110 duration-500'>
